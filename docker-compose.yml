@@ -1,0 +1,6 @@
+version: '3.4'
+services:
+    productivity-app:
+        image: isaac/productivity-app
+        build:
+            context: src/PersonalProductivityApp
