@@ -1,0 +1,89 @@
+{
+  "todo": [
+    {
+      "assignedTo": {
+        "name": "Isaac Bailey"
+      },
+      "creation_time": "2020-12-12T01:47:26.677Z",
+      "description": {
+        "content": "Create the kanban model",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "Should probably look like:\nProject \n{\n    Id,\n    Name,\n    Description,\n    [{\n        Id,\n        Title,\n        Description,\n        Status (Planning, Todo, Doing, Finished)\n    }]\n}",
+        "mime": "text/markdown"
+      },
+      "id": "4",
+      "references": [],
+      "title": "Create models"
+    },
+    {
+      "assignedTo": {
+        "name": "Isaac Bailey"
+      },
+      "creation_time": "2020-12-12T01:51:36.880Z",
+      "description": {
+        "content": "Create and API for the frontend to talk to",
+        "mime": "text/markdown"
+      },
+      "id": "5",
+      "references": [],
+      "title": "Create the API project"
+    },
+    {
+      "assignedTo": {
+        "name": "Isaac Bailey"
+      },
+      "creation_time": "2020-12-12T01:40:05.428Z",
+      "description": {
+        "content": "I would like to use SQRL for authentication",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "Look into the different ways of getting SQRL support\nHow to register users and authenticate them",
+        "mime": "text/markdown"
+      },
+      "id": "3",
+      "references": [],
+      "title": "Research Authentication"
+    },
+    {
+      "assignedTo": {
+        "name": "Isaac Bailey"
+      },
+      "creation_time": "2020-12-12T01:38:13.958Z",
+      "description": {
+        "content": "Look into different databases",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "Focus on how to add support for mongodb or martendb",
+        "mime": "text/markdown"
+      },
+      "id": "2",
+      "references": [],
+      "title": "Research Data Persistence"
+    }
+  ],
+  "in-progress": [
+    {
+      "assignedTo": {
+        "name": "Isaac Bailey"
+      },
+      "creation_time": "2020-12-12T01:35:53.299Z",
+      "description": {
+        "content": "Add docker support",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "This project should be able to run in a docker container",
+        "mime": "text/markdown"
+      },
+      "id": "1",
+      "references": [],
+      "title": "Dockerize"
+    }
+  ],
+  "testing": [],
+  "done": []
+}

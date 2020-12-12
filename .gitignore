@@ -513,6 +513,7 @@ obj/
 .vscode/*
 !.vscode/tasks.json
 !.vscode/launch.json
+!.vscode/vscode-kanban.json
 *.code-workspace
 
 ### VisualStudioCode Patch ###
