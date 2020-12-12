@@ -65,7 +65,9 @@
       "title": "Research Data Persistence"
     }
   ],
-  "in-progress": [
+  "in-progress": [],
+  "testing": [],
+  "done": [
     {
       "assignedTo": {
         "name": "Isaac Bailey"
@@ -83,7 +85,5 @@
       "references": [],
       "title": "Dockerize"
     }
-  ],
-  "testing": [],
-  "done": []
+  ]
 }
