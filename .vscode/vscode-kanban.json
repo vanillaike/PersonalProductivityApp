@@ -4,23 +4,6 @@
       "assignedTo": {
         "name": "Isaac Bailey"
       },
-      "creation_time": "2020-12-12T01:47:26.677Z",
-      "description": {
-        "content": "Create the kanban model",
-        "mime": "text/markdown"
-      },
-      "details": {
-        "content": "Should probably look like:\nProject \n{\n    Id,\n    Name,\n    Description,\n    [{\n        Id,\n        Title,\n        Description,\n        Status (Planning, Todo, Doing, Finished)\n    }]\n}",
-        "mime": "text/markdown"
-      },
-      "id": "4",
-      "references": [],
-      "title": "Create models"
-    },
-    {
-      "assignedTo": {
-        "name": "Isaac Bailey"
-      },
       "creation_time": "2020-12-12T01:51:36.880Z",
       "description": {
         "content": "Create and API for the frontend to talk to",
@@ -65,7 +48,25 @@
       "title": "Research Data Persistence"
     }
   ],
-  "in-progress": [],
+  "in-progress": [
+    {
+      "assignedTo": {
+        "name": "Isaac Bailey"
+      },
+      "creation_time": "2020-12-12T01:47:26.677Z",
+      "description": {
+        "content": "Create the kanban model",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "Should probably look like:\nProject \n{\n    Id,\n    Name,\n    Description,\n    [Task{\n        Id,\n        Title,\n        Description,\n        Status (Planning, Todo, Doing, Finished)\n    }]\n}",
+        "mime": "text/markdown"
+      },
+      "id": "4",
+      "references": [],
+      "title": "Create models"
+    }
+  ],
   "testing": [],
   "done": [
     {
