@@ -1,0 +1,78 @@
+[
+    {
+        "id": "00000000-0000-0000-0000-000000000001",
+        "name": "Productivity App",
+        "description": "KanBan app to track personal projects",
+        "tasks": [
+            {
+                "id": "00000000-0000-0000-0000-000000000002",
+                "title": "Task 1",
+                "description": "Task description",
+                "status": "Planning"
+            },
+            {
+                "id": "00000000-0000-0000-0000-000000000003",
+                "title": "Task 2",
+                "description": "Task 2 description",
+                "status": "Finished"
+            }
+        ]
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000011",
+        "name": "Dummy Project",
+        "description": "Dummy project description",
+        "tasks": [
+            {
+                "id": "00000000-0000-0000-0000-000000000012",
+                "title": "Task 1",
+                "description": "Task description",
+                "status": "Todo"
+            },
+            {
+                "id": "00000000-0000-0000-0000-000000000013",
+                "title": "Task 2",
+                "description": "Task 2 description",
+                "status": "Todo"
+            }
+        ]
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000021",
+        "name": "Dummy 2 Project",
+        "description": "Dummy 2 project description",
+        "tasks": [
+            {
+                "id": "00000000-0000-0000-0000-000000000022",
+                "title": "Task 1",
+                "description": "Task description",
+                "status": "Todo"
+            },
+            {
+                "id": "00000000-0000-0000-0000-000000000023",
+                "title": "Task 2",
+                "description": "Task 2 description",
+                "status": "Todo"
+            }
+        ]
+    },
+    {
+        "id": "00000000-0000-0000-0000-000000000031",
+        "name": "Dummy 3 Project",
+        "description": "Dummy 3 project description",
+        "tasks": [
+            {
+                "id": "00000000-0000-0000-0000-000000000032",
+                "title": "Task 1",
+                "description": "Task description",
+                "status": "Todo"
+            },
+            {
+                "id": "00000000-0000-0000-0000-000000000033",
+                "title": "Task 2",
+                "description": "Task 2 description",
+                "status": "Todo"
+            }
+        ]
+    }
+]

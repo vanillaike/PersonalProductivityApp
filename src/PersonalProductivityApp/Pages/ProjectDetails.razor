@@ -1,0 +1,45 @@
+﻿@page "/project/{id:guid}"
+@using System
+@inject HttpClient Http
+
+@if (project == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <h3>Project @project.Name</h3>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var task in project.Tasks)
+            {
+                <tr>
+                    <td>@task.Title</td>
+                    <td>@task.Description</td>
+                    <td>@task.Status</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    [Parameter]
+    public Guid Id { get; set; }
+
+    private Models.Project project;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var projects = await Http.GetFromJsonAsync<Models.Project[]>("sample-data/projects.json");
+        project = projects.FirstOrDefault(_ => _.Id == Id);
+    }
+}
